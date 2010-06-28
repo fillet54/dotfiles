@@ -1,4 +1,5 @@
-Host example
-  HostName example.com
-  User my_username
+Host blackbox 
+  HostName fillet54.is-a-geek.com
+  Port 2154
+  User xbmc 
 
