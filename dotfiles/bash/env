@@ -1,3 +1,16 @@
 # Set PATH, CDPATH, EDITOR, etc.
 
-export PATH=/opt/local/bin:/opt/local/sbin:$PATH:~/bin
+export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH:~/bin
+
+# For Plex ATV2 Client
+export THEOS=/opt/theos
+
+export RSPEC=true
+
+# Setup Amazon EC2 Command-Line Tools
+export EC2_HOME=~/.ec2
+export PATH=$PATH:$EC2_HOME/bin
+export EC2_PRIVATE_KEY=`ls $EC2_HOME/pk-*.pem`
+export EC2_CERT=`ls $EC2_HOME/cert-*.pem`
+export JAVA_HOME=/System/Library/Frameworks/JavaVm.framework/Home/
+

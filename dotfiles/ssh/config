@@ -1,5 +1,34 @@
+Host serenahelriot
+   HostName serenahelriot.com
+   User serenahe
+
 Host blackbox 
-  HostName fillet54.is-a-geek.com
+  HostName philgomez.com
   Port 2154
   User xbmc 
+
+Host phillip
+  HostName philgomez.com
+  port 2155
+  user phillip
+
+Host phillip-local
+  HostName 192.168.1.5
+  port 2155
+  user phillip
+
+Host tor_blackbox
+  CheckHostIP no
+  Compression yes
+  Protocol 2
+  ProxyCommand connect -4 -S 127.0.0.1:9051 %h %p
+  HostName philgomez.com
+  User xbmc
+  Port 2150
+
+Host mediacenter
+  HostName philgomez.com
+  Port 2154
+  user mediacenter  
+
 
