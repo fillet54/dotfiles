@@ -1,9 +1,9 @@
 # Command Enhancements
 
 # Utility
-alias reload='source ~/bin/dotfiles/bash/aliases'
-alias ea='mate -w ~/bin/dotfiles/bash/aliases && reload' # Edit aliases
-alias ee="mate ~/bin/dotfiles/bash/env"
+alias reload='source ~/.dotfiles/bash/aliases'
+alias ea='mate -w ~/.dotfiles/bash/aliases && reload' # Edit aliases
+alias ee="mate ~/.dotfiles/bash/env"
 
 # Quicker cd
 alias cg='cd /Library/Ruby/Gems/1.8/gems/'
@@ -129,7 +129,7 @@ alias etr="mate app config lib db schema public spec test vendor/gems vendor/plu
 alias r="rake"
 
 function markdown() { 
-/Applications/TextMate.app/Contents/SharedSupport/Support/bin/Markdown.pl $1 > $1.html 
+/Applications/TextMate.app/Contents/SharedSupport/Support/.Markdown.pl $1 > $1.html 
 }
 
 # Rails
@@ -205,7 +205,7 @@ function rmf(){
 function __rm_single_file(){
     if ! [ -d ~/.Trash/ ]
     then
-        command /bin/mkdir ~/.Trash
+        command /.mkdir ~/.Trash
     fi
 
     if ! [ $# -eq 1 ]
@@ -225,7 +225,7 @@ function __rm_single_file(){
             NAME="$BASENAME.$COUNT"
         done
 
-        command /bin/mv $1 ~/.Trash/$NAME
+        command /.mv $1 ~/.Trash/$NAME
     else
         echo "No such file or directory: $file"
     fi
