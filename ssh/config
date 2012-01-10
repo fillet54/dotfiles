@@ -1,3 +1,28 @@
+Host htpc
+   HostName 192.168.2.124
+   User htpc
+   Port 2154
+
+Host glendora
+   HostName glendora.philgomez.com
+   User gomez
+   Port 2154
+
+Host lfswest
+   HostName 192.168.2.102
+   User administrator
+   Port 2154
+
+Host fswest
+   HostName fswest.philgomez.com
+   User administrator
+   Port 2154
+
+Host fseast
+   HostName philgomez.com
+   User administrator
+   Port 2155
+
 Host serenahelriot
    HostName serenahelriot.com
    User serenahe

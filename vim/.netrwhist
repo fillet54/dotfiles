@@ -1,7 +1,11 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_cnt =9
 let g:netrw_dirhist_1='/Users/phillipgomez/Downloads'
 let g:netrw_dirhist_2='/Users/phillipgomez/Library/Application Support/Plex Media Server/Plug-ins/LiveTv.bundle'
 let g:netrw_dirhist_3='/Users/phillipgomez/.ssh'
 let g:netrw_dirhist_4='/Users/phillipgomez/Sites/serenaHelriotBlog/wp-admin'
 let g:netrw_dirhist_5='/Users/phillipgomez/Sites/serenaHelriotBlog/wp-content/themes/pliabilites/css'
+let g:netrw_dirhist_6='/Users/phillipgomez/Documents/Dads Homepage'
+let g:netrw_dirhist_7='/Users/phillipgomez/Documents'
+let g:netrw_dirhist_8='/Users/phillipgomez/Library/Application Support/Plex Media Server/Plug-ins/SickBeard.bundle'
+let g:netrw_dirhist_9='/Users/phillipgomez/Movies/Plex Live Tv'
