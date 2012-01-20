@@ -1,3 +1,7 @@
+[extensions]
+hgext.bookmarks =
+hggit =
+
 [git]
 intree=1
 

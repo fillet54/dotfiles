@@ -1,12 +1,14 @@
 autoload -U colors
 colors
 setopt prompt_subst
-PROMPT='%{$fg[red]%}[%M] %~ %{$fg[green]%}$(vcprompt)%{$reset_color%}
-→ %{$reset_color%}'
+
+local arrow="%(?,%F{28}→%f,%{$fg[red]%}→%{$reset_color%})"
+
+PROMPT='%{$fg[yellow]%}[%M] %~%{$reset_color%}
+${arrow} %{$reset_color%}'
 
 # Set RPROMPT to have info show up on the right, too.
-RPROMPT='
-- %* -'
+RPROMPT='%{$fg[brgreen]%} $(~/.rvm/bin/rvm-prompt)$(~/.dotfiles/bin/git-cwd-info.rb)%{$reset_color%}'
 #############################
 # Other Options
 
