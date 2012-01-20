@@ -8,7 +8,7 @@ PROMPT='%{$fg[yellow]%}[%M] %~%{$reset_color%}
 ${arrow} %{$reset_color%}'
 
 # Set RPROMPT to have info show up on the right, too.
-RPROMPT='%{$fg[brgreen]%} $(~/.rvm/bin/rvm-prompt)$(~/.dotfiles/bin/git-cwd-info.rb)%{$reset_color%}'
+RPROMPT='%F{11} $(~/.rvm/bin/rvm-prompt)$(~/.dotfiles/bin/git-cwd-info.rb)%f'
 #############################
 # Other Options
 
