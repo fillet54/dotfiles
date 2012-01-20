@@ -9,6 +9,7 @@
 #
 # MODIFIED:
 #    Geoffrey Grosenbach http://peepcode.com
+#    Phillip Gomez http://philgomez.com: More git dirty conditions.
 
 # The methods that get called more than once are memoized.
 
@@ -31,7 +32,7 @@ def git_head_commit_id
 end
 
 def git_cwd_dirty
-  " ✗" unless git_repo_path == '.' || `git ls-files -m -o --exclude-standard`.strip.empty?
+  " ✗" unless git_repo_path == '.' || `git status --short`.strip.empty?
 end
 
 def rebasing_etc
