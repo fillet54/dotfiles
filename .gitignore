@@ -3,5 +3,5 @@ vcprompt
 dotfiles/.DS_Store
 bin/vcprompt
 src
-
+vim/.netrwhist
 *.gem
