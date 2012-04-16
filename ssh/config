@@ -1,5 +1,5 @@
 Host htpc
-   HostName 192.168.2.124
+   HostName 192.168.2.125
    User htpc
    Port 2154
 
@@ -19,7 +19,7 @@ Host fswest
    Port 2154
 
 Host fseast
-   HostName philgomez.com
+   HostName 192.168.0.10
    User administrator
    Port 2155
 

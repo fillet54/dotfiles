@@ -1,11 +1,12 @@
 # Command Enhancements
 
-alias ls='ls --color=auto'
-
 # Utility
 alias reload='source ~/.dotfiles/bash/aliases'
 alias ea='mate -w ~/.dotfiles/bash/aliases && reload' # Edit aliases
 alias ee="mate ~/.dotfiles/bash/env"
+
+# MacVim
+alias vim='mvim -v'
 
 # Quicker cd
 alias cg='cd /Library/Ruby/Gems/1.8/gems/'
