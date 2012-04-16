@@ -1,0 +1,23 @@
+[user]
+	name = Phillip Gomez
+	email = gomez.phillip@gmail.com
+[core]
+	excludesfile = /Users/phillipgomez/.gitignore_global
+	editor = vim
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[color]
+	ui = auto
+[alias]
+   l = log --graph --pretty=format':%C(yellow)%h%Cblue%d%Creset %s %C(white) %an, %ar%Creset'
+   st = status
+   co = checkout
+   ci = commit
+   di = diff
+   dc = diff --cached
+   aa = add --all
+
