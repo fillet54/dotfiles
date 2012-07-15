@@ -23,7 +23,7 @@ Host fseast
    User administrator
    Port 2155
 
-Host serenahelriot
+Host serenahelriot.com
    HostName serenahelriot.com
    User serenahe
 
@@ -55,5 +55,4 @@ Host mediacenter
   HostName philgomez.com
   Port 2154
   user mediacenter  
-
 
