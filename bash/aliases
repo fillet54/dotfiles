@@ -15,6 +15,7 @@ function cr() {
 }
 
 # Common -- Some are from Damian Conway
+alias ls='ls -G'
 alias a='ls -A' # -A all except literal . ..
 alias la="ls -A -l -G"
 alias c='clear'

@@ -1,6 +1,6 @@
 # Set PATH, CDPATH, EDITOR, etc.
 
-export PATH=/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH:~/.dotfiles/bin:~/bin
+export PATH=/usr/local/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:$PATH:~/.dotfiles/bin:~/bin
 
 # For Plex ATV2 Client
 export THEOS=/opt/theos
