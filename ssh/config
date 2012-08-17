@@ -56,3 +56,8 @@ Host mediacenter
   Port 2154
   user mediacenter  
 
+Host pair
+  HostName philgomez.com 
+  port 2155
+  user pair
+
