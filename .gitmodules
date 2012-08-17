@@ -1,0 +1,17 @@
+[submodule "dircolors-solarized"]
+   path = dircolors/solarized
+   url = git://github.com/seebi/dircolors-solarized.git
+
+[submodule "Command-T"]
+   path = vim/bundle/command-t
+   url = git://github.com/wincent/Command-T.git
+
+[submodule "ctrlp"]
+   path = vim/bundle/ctrlp
+   url = git://github.com/kien/ctrlp.vim.git
+
+[submodule "vim-rails"]
+   path = vim/bundle/vim-rails
+   url = git://github.com/tpope/vim-rails.git
+
+
