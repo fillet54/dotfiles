@@ -5,7 +5,7 @@
 
 dotfiles=~/.dotfiles
 old_dotfiles=~/.dotfiles.bak
-files="bashrc bash_profile gitconfig vim vimrc zshrc"
+files="bashrc bash_profile gitconfig vim vimrc zshrc tmux.conf"
 
 echo "Pulling all submodules"
 git pull && git submodule init && git submodule update && git submodule status
