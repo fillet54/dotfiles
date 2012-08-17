@@ -12,7 +12,13 @@ function cr() {
 }
 
 # Common -- Some are from Damian Conway
-alias ls='ls -G'
+OS=`uname -s`
+if [ $OS = "Linux" ]; then
+   alias ls='ls -G --color=auto'
+else
+   alias ls='ls -G'
+fi
+
 alias a='ls -A' # -A all except literal . ..
 alias la="ls -A -l -G"
 alias c='clear'
