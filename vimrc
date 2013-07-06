@@ -8,6 +8,8 @@ let g:ctrlp_max_height = 100
 
 call pathogen#runtime_append_all_bundles()
 
+autocmd BufNewFile,BufRead *.json set ft=javascript
+
 set nocompatible                  " Must come first because it changes other options.
 
 
