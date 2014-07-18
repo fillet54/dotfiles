@@ -1,6 +1,7 @@
 " Example Vim configuration.
 
 " Copy or symlink to ~/.vimrc or ~/_vimrc.
+let g:ctrlp_custom_ignore = '\v[\/](\.(git|hg|svn)|target)$'
 let g:ctrlp_extensions = ["tag"]
 let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_map = '<leader>f'
@@ -171,6 +172,8 @@ map <leader>a :call RunTests('spec')<cr>
 map <leader>A :A<cr>
 
 nnoremap <leader><leader> <c-^>
+
+inoremap { {<CR>}<Esc>ko
 
 " Controversial...swap colon and semicolon for easier commands
 "nnoremap ; :
