@@ -7,6 +7,10 @@ let g:ctrlp_match_window_reversed = 0
 let g:ctrlp_map = '<leader>f'
 let g:ctrlp_max_height = 100
 
+let g:indentLine_color_term = 239
+let g:indentLine_color_gui = '#09AA08'
+let g:indentLine_char = '│'
+
 call pathogen#runtime_append_all_bundles()
 
 autocmd BufNewFile,BufRead *.json set ft=javascript
