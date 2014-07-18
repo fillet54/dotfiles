@@ -9,7 +9,7 @@ let g:ctrlp_max_height = 100
 
 let g:indentLine_color_term = 239
 let g:indentLine_color_gui = '#09AA08'
-let g:indentLine_char = '│'
+let g:indentLine_char = '|'
 
 call pathogen#runtime_append_all_bundles()
 
