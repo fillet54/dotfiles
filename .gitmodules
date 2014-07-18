@@ -15,3 +15,6 @@
    url = git://github.com/tpope/vim-rails.git
 
 
+[submodule "vim/bundle/indentLine"]
+	path = vim/bundle/indentLine
+	url = https://github.com/Yggdroot/indentLine.git
