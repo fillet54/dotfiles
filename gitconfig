@@ -4,6 +4,7 @@
 [core]
 	excludesfile = /Users/phillipgomez/.gitignore_global
 	editor = vim
+	autocrlf = input
 [difftool "sourcetree"]
 	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
 	path = 
