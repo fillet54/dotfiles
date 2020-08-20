@@ -1,15 +1,3 @@
-autoload -U colors
-colors
-setopt prompt_subst
-
-local arrow="%(?,%F{28}→%f,%{$fg[red]%}→%{$reset_color%})"
-
-PROMPT='%{$fg[yellow]%}[%m] %~%{$reset_color%}
-${arrow} %{$reset_color%}'
-
-# Set RPROMPT to have info show up on the right, too.
-RPROMPT='%F{11} $(~/.rvm/bin/rvm-prompt)$(~/.dotfiles/bin/git-cwd-info.rb)%f'
-#RPROMPT='%F{11} $(~/.dotfiles/bin/git-cwd-info.rb)%f'
 #############################
 # Other Options
 

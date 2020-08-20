@@ -41,5 +41,7 @@ if [ $OS = "Linux" ]; then
    sudo apt-get update
    sudo apt-get install -y zsh vim ctags curl
    chsh -s /bin/zsh
-   curl -L https://get.rvm.io | bash -s stable --ruby
 fi
+
+# oh-my-zsh themes
+ln -s $dotfiles/zsh/themes/powerlevel9k $dotfiles/zsh/oh-my-zsh/custom/themes/powerlevel9k

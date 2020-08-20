@@ -44,4 +44,4 @@ nnoremap <c-h> <c-w>h
 nnoremap <c-l> <c-w>l
 
 set background=dark
-colorscheme solarized
+colorscheme onehalfdark

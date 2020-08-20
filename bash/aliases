@@ -242,3 +242,5 @@ function __rm_single_file(){
     fi
 }
 
+# This seems much faster to do this way
+alias pyenv="/home/phillip/.pyenv/bin/pyenv"
