@@ -43,9 +43,6 @@
 [submodule "git/diff-so-fancy"]
 	path = git/diff-so-fancy
 	url = git@github.com:so-fancy/diff-so-fancy.git
-[submodule "zsh/zsh-autoenv"]
-	path = zsh/zsh-autoenv
-	url = git@github.com:Tarrasch/zsh-autoenv.git
 [submodule "zsh/oh-my-zsh"]
 	path = zsh/oh-my-zsh
 	url = https://github.com/ohmyzsh/ohmyzsh.git

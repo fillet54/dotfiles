@@ -1,3 +1,7 @@
+. ~/.dotfiles/zsh/config
+. ~/.dotfiles/zsh/aliases
+. ~/.dotfiles/zsh/env
+
 #############################
 # oh-my-zsh
 #
@@ -86,8 +90,3 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-. ~/.dotfiles/zsh/config
-. ~/.dotfiles/zsh/aliases
-. ~/.dotfiles/zsh/env
-
-source ~/.dotfiles/zsh/zsh-autoenv/autoenv.zsh
