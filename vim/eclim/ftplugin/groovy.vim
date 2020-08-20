@@ -40,6 +40,10 @@ if !exists(":Validate")
   command! -nargs=0 -buffer Validate :call eclim#lang#UpdateSrcFile('groovy', 1)
 endif
 
+if !exists(":JavaImport")
+  command -buffer JavaImport :call eclim#java#import#Import()
+endif
+
 " }}}
 
 " vim:ft=vim:fdm=marker
