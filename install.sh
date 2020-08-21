@@ -42,6 +42,3 @@ if [ $OS = "Linux" ]; then
    sudo apt-get install -y zsh vim ctags curl
    chsh -s /bin/zsh
 fi
-
-# oh-my-zsh themes
-ln -s $dotfiles/zsh/themes/powerlevel9k $dotfiles/zsh/oh-my-zsh/custom/themes/powerlevel9k

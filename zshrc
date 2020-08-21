@@ -1,12 +1,16 @@
-. ~/.dotfiles/zsh/config
-. ~/.dotfiles/zsh/aliases
-. ~/.dotfiles/zsh/env
+#zmodload zsh/zprof
+
+source ~/.dotfiles/zsh/config
+source ~/.dotfiles/zsh/aliases
+
 
 #############################
 # oh-my-zsh
 #
 # please install oh-my-zsh and powerlevel9k theme
-export ZSH="$(realpath ~/.dotfiles/zsh/oh-my-zsh)"
+#export ZSH="$(realpath ~/.dotfiles/zsh/oh-my-zsh)"
+export DOT_HOME=$(realpath ~/.dotfiles)
+export ZSH=$DOT_HOME/zsh/oh-my-zsh
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -79,14 +83,15 @@ POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(custom_ubuntu_icon dir virtualenv vcs)
 # HIST_STAMPS="mm/dd/yyyy"
 
 # Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
+ZSH_CUSTOM=$DOT_HOME/zsh/custom/
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git autoenv)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.dotfiles/zsh/env
 
+#zprof
