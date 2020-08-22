@@ -19,6 +19,10 @@ __BS="\[\e[1D\]"
 __RESET="\[\e[0m\]"
 __BG_DEFAULT="\[\e[49m\]"
 
+if ! type "$__git_ps1" > /dev/null 2>&1; then 
+   source ~/.dotfiles/bash/git-prompt.sh
+fi
+
 git_status() {
     BRANCH="$(__git_ps1 '%s')"
     STATUS=
