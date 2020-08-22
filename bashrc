@@ -47,7 +47,7 @@ git_status() {
             done
         done <<< "$STATUS"
 
-        if [[ ! -z $UNSTAGED || ! -z $STAGED || ! -z $UNTRACKED ]]; then
+        if [[ ! -z $UNSTAGED || ! -z $STAGED ]]; then
             COLOR=${__YELLOW}
             BG_COLOR=${__BG_YELLOW}
         fi
