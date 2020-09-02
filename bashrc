@@ -62,11 +62,11 @@ update_python_env() {
    # Cached version
    if [[ ! -z $VIRTUAL_ENV && "$VIRTUAL_ENV" != "$__PS1_VIRTUAL_ENV" ]]; then
       export __PS1_VIRTUAL_ENV="$VIRTUAL_ENV"
-      export __PS1_PYTHON_VERSION="$(python -V)"
+      export __PS1_PYTHON_VERSION="$(python -V 2>&1)"
       export __PS1_PYTHON_BASEDIR="$(basename $VIRTUAL_ENV)"
    elif [[ -z $VIRTUAL_ENV && "$PATH" != "$__PS1_PATH" ]]; then
       export __PS1_PATH="$PATH"
-      export __PS1_PYTHON_VERSION="$(python -V)"
+      export __PS1_PYTHON_VERSION="$(python -V 2>&1)"
       WHICH_PATH=$(which python)
       if [[ "$WHICH_PATH" == "/c/Python38/python" ]]; then
          export __PS1_PYTHON_BASEDIR="System"
